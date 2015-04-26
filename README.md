@@ -1,0 +1,1 @@
+This repository contains the Python Theano library tutorials from http://deeplearning.net/software/theano/index.html
