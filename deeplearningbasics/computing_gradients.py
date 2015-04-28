@@ -4,7 +4,7 @@ from theano import function
 
 x = T.dscalar('x')
 y = T.dscalar('y')
-z = T.dscalar('y')
+z = T.dscalar('z')
 mult_var_func = x ** 3 + y ** 2 + z
 grad = T.grad(mult_var_func, [x, y, z])  # [3 * x ** 2, 2 * y, 1]
 
