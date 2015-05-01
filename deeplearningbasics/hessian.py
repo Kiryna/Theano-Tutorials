@@ -1,7 +1,7 @@
 import theano
 import theano.tensor as T
 import theano.gradient as grad
-from theano import  function
+from theano import function
 
 x = T.dvector('x')
 y = x ** 2
